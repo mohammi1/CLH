@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-28T13:57:08 IST" name="Default suite" finished-at="2024-07-28T13:57:34 IST" duration-ms="26395">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:chat.automation.Template.runner.TemplateTestRunner@44c03695]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-28T13:57:08 IST" name="Default test" finished-at="2024-07-28T13:57:34 IST" duration-ms="26395">
+      <class name="chat.automation.Template.runner.TemplateTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:chat.automation.Template.runner.TemplateTestRunner@44c03695]" started-at="2024-07-28T13:57:08 IST" name="setUpClass" finished-at="2024-07-28T13:57:09 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4262fdeb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:chat.automation.Template.runner.TemplateTestRunner@44c03695]" started-at="2024-07-28T13:57:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T13:57:34 IST" duration-ms="25497" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open Youtube website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["A test case in a Framework Template"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at chat.automation.framework.helper.ActionsHelper.findObject(ActionsHelper.java:102)
+at chat.automation.framework.helper.ActionsHelper.setValue(ActionsHelper.java:477)
+at chat.automation.Template.actions.LoginWinWeb.LaunchURL(LoginWinWeb.java:12)
+at chat.automation.Template.stepDefinitions.TemplateDefinitionFile.login_to_win_web_page(TemplateDefinitionFile.java:17)
+at ✽.Login to Win Web Page "https://google.co.in"(file:///D:/TFS/Win/QA/CLHAutomation-Selenium/ISP%20Workspace/ProjectFramework_V3_TEST/src/test/resources/features/Template.feature:25)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:chat.automation.Template.runner.TemplateTestRunner@44c03695]" started-at="2024-07-28T13:57:34 IST" name="tearDownClass" finished-at="2024-07-28T13:57:34 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- chat.automation.Template.runner.TemplateTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
