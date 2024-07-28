@@ -1,0 +1,11 @@
+chat\automation\Template\actions\AccountType_AddNew.class
+chat\automation\Template\runner\TemplateTestRunner.class
+chat\automation\Template\actions\WinWebHomePage.class
+chat\automation\Template\repository\AccountTypeHomeOR.class
+chat\automation\Template\stepDefinitions\TemplateDefinitionFile.class
+chat\automation\Template\repository\AccountType_EditOR.class
+chat\automation\Template\actions\LoginWinWeb.class
+chat\automation\Template\actions\AccountTypeHome.class
+chat\automation\Template\actions\AccountType_Edit.class
+chat\automation\Template\repository\AccountType_AddnewOR.class
+chat\automation\Template\repository\WinWebHomePageOR.class
