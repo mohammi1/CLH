@@ -16,6 +16,7 @@
 	<url>http://www.cleanharbors.com</url>
 
 	<properties>
+    <JavaFrame-Helper-systemPath>C:\Jars\JavaFrame-Helper.jar</JavaFrame-Helper-systemPath>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
@@ -168,6 +169,8 @@
     		<groupId>JavaFrameHelper</groupId>
     		<artifactId>JavaFrame-Helper</artifactId>
     		<version>1.0.0</version>
+    		<scope>system</scope>
+    		<systemPath>C:\Jars\JavaFrame-Helper.jar</systemPath>
 		</dependency>
 	</dependencies>
 
