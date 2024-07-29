@@ -14,7 +14,7 @@ public class TemplateDefinitionFile {
 	@Given("Login to Win Web Page {string}")
 	public void login_to_win_web_page(String string) throws ClassNotFoundException {
 		Reporter.startNode("Given", "Login to Win Web Page {string}");
-		LoginWinWeb.LaunchURL();
+		LoginWinWeb.LaunchURL(string);
 	}
 
 	@Given("Navigate to Invoicing -->LOV-->Account Types from Navbar menu")
